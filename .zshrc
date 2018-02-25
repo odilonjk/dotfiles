@@ -5,7 +5,7 @@ fi
 
 # Path
 export ZSH=$HOME/.oh-my-zsh
-export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin:/usr/sbin:/sbin:/etc/usr/sbin
+export PATH=$PATH:/usr/sbin:/sbin:/etc/usr/sbin
 export WORK=$HOME/Workspace
 
 # Themes

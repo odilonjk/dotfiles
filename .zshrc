@@ -7,6 +7,8 @@ fi
 export ZSH=$HOME/.oh-my-zsh
 export PATH=$PATH:/usr/sbin:/sbin:/etc/usr/sbin
 export WORK=$HOME/Workspace
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$WORK/go
 
 # Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
@@ -31,3 +33,4 @@ alias ev="vim ~/.vimrc"
 alias v="vim"
 alias eg="vim ~/.gitconfig"
 alias ws="cd $WORK"
+alias up="sudo apt-get update -y && sudo apt-get upgrade -y"

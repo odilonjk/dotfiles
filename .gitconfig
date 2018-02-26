@@ -10,3 +10,4 @@
 	br = branch
 	ci = commit
 	st = status
+	pl = log --graph --oneline --date=short --pretty=format:"%C(white)%h%x09%C(magenta)%an%x09%C(blue)%ad%x09%C(white)%s"
